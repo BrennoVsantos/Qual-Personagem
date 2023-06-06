@@ -1,0 +1,12 @@
+.score {
+  color: yellow;
+}
+
+.gameOverScreen {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}

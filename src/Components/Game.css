@@ -1,0 +1,90 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 5px;
+  max-width: 100vw;
+}
+
+.game h1 {
+  font-size: 2rem;
+}
+
+.points,
+.tip,
+.guessTitle,
+.tries {
+  text-align: center;
+}
+
+.points span {
+  font-weight: bold;
+}
+
+.tip span {
+  color: yellow;
+}
+
+.WordContainer {
+  padding: 1.5rem;
+  border: 5px solid yellow;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  max-width: 100vw;
+}
+
+.Letter,
+.BlankSquare {
+  font-size: 70px;
+  line-height: 1.5;
+  border: 3px solid black;
+  border-collapse: collapse;
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  background-color: rgb(88, 88, 88);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.LetterContainer p {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.LetterContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LetterContainer input {
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.WrongLettersContainer {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.used {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: rgb(224, 119, 119);
+}
+
+.usedLetters {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}

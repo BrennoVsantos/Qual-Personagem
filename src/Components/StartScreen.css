@@ -1,8 +1,16 @@
-.App {
+.Start {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   gap: 50px;
+}
+
+.Start h1 {
+  font-size: 4rem;
+}
+
+.Start p {
+  color: yellow;
 }
