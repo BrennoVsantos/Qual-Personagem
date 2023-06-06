@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Qual-Personagem/static/css/main.816b4326.css",
+    "main.js": "/Qual-Personagem/static/js/main.7d0d22fe.js",
+    "static/js/787.53a5a41a.chunk.js": "/Qual-Personagem/static/js/787.53a5a41a.chunk.js",
+    "index.html": "/Qual-Personagem/index.html",
+    "main.816b4326.css.map": "/Qual-Personagem/static/css/main.816b4326.css.map",
+    "main.7d0d22fe.js.map": "/Qual-Personagem/static/js/main.7d0d22fe.js.map",
+    "787.53a5a41a.chunk.js.map": "/Qual-Personagem/static/js/787.53a5a41a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.816b4326.css",
+    "static/js/main.7d0d22fe.js"
+  ]
+}
